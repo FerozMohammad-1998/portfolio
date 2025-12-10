@@ -14,8 +14,8 @@ export const routes: Routes = [
     canActivate: [UrlNormalizationGuard],
     data: {
       title: 'Home',
-      description: 'Darshan Bhuva - Full-Stack Developer specializing in Angular, .NET, and modern web technologies. Explore my portfolio, experience, and projects.',
-      keywords: 'Darshan Bhuva, Full-Stack Developer, Angular Developer, .NET Developer, Portfolio, Web Development'
+      description: 'Feroz Mohammad - Business Banking Professional, Entrepreneur, and Wine Consultant. Explore my portfolio, experience, and projects.',
+      keywords: 'Feroz Mohammad, Business Banking, Entrepreneur, Wine Consultant, Portfolio, Professional Experience'
     }
   },
   {
@@ -24,8 +24,8 @@ export const routes: Routes = [
     canActivate: [UrlNormalizationGuard],
     data: {
       title: 'About Me',
-      description: 'Learn about Darshan Bhuva, a passionate Full-Stack Developer with expertise in Angular, .NET, and modern web technologies.',
-      keywords: 'About Darshan Bhuva, Full-Stack Developer Background, Angular Developer Profile, .NET Developer Experience'
+      description: 'Learn about Feroz Mohammad, a business banking professional and co-founder of Dario Lario with expertise in SME portfolio management, sales, and wine consulting.',
+      keywords: 'About Feroz Mohammad, Business Banking Professional, Entrepreneur Profile, Dario Lario, Wine Consultant'
     }
   },
   {
@@ -34,8 +34,8 @@ export const routes: Routes = [
     canActivate: [UrlNormalizationGuard],
     data: {
       title: 'Experience',
-      description: 'Explore Darshan Bhuva\'s professional experience as a Full-Stack Developer. View detailed work history, technical skills, and career achievements.',
-      keywords: 'Darshan Bhuva Experience, Full-Stack Developer Career, Angular Developer Jobs, .NET Developer Experience, Web Development Skills'
+      description: 'Explore Feroz Mohammad\'s professional journey, including his roles in business development, banking, and entrepreneurship. View detailed achievements and project highlights.',
+      keywords: 'Feroz Mohammad Experience, Business Banking Career, Entrepreneurial Projects, Wine Consulting, Professional Achievements'
     }
   },
   {
@@ -44,8 +44,8 @@ export const routes: Routes = [
     canActivate: [UrlNormalizationGuard],
     data: {
       title: 'Projects',
-      description: 'Explore Darshan Bhuva\'s portfolio of innovative web applications and software projects. View detailed case studies of Angular, .NET, and full-stack development work.',
-      keywords: 'Darshan Bhuva Projects, Full-Stack Developer Portfolio, Angular Projects, .NET Applications, Web Development Portfolio'
+      description: 'Showcase of Feroz Mohammad\'s projects, including Dario Lario brand launch, wine events, and business development initiatives with SMEs.',
+      keywords: 'Feroz Mohammad Projects, Dario Lario Launch, SME Business Development, Wine Events, Portfolio Projects'
     }
   },
   {
@@ -54,8 +54,8 @@ export const routes: Routes = [
     canActivate: [UrlNormalizationGuard],
     data: {
       title: 'Contact',
-      description: 'Get in touch with Darshan Bhuva for collaboration opportunities, project inquiries, or professional discussions.',
-      keywords: 'Contact Darshan Bhuva, Hire Full-Stack Developer, Angular Developer Contact, .NET Developer Hire, Web Development Services'
+      description: 'Get in touch with Feroz Mohammad for collaboration opportunities, business inquiries, or professional discussions.',
+      keywords: 'Contact Feroz Mohammad, Business Banking Contact, Entrepreneur Contact, Wine Consulting, Collaboration'
     }
   },
   {
@@ -64,8 +64,8 @@ export const routes: Routes = [
     canActivate: [UrlNormalizationGuard],
     data: {
       title: 'Resume',
-      description: 'Download or view Darshan Bhuva\'s professional resume. Comprehensive overview of skills, experience, and achievements as a Full-Stack Developer.',
-      keywords: 'Darshan Bhuva Resume, Full-Stack Developer CV, Angular Developer Resume, .NET Developer CV, Web Developer Resume Download'
+      description: 'Download or view Feroz Mohammad\'s professional resume. Detailed overview of skills, experience, and achievements in business development, banking, and entrepreneurship.',
+      keywords: 'Feroz Mohammad Resume, Business Banking CV, Entrepreneur CV, Wine Consultant Resume, Professional Achievements'
     }
   },
   // Legacy hash-based URL redirects
@@ -86,3 +86,4 @@ export const routes: Routes = [
   },
   { path: '**', redirectTo: '' } // Wildcard route for 404 pages
 ];
+
