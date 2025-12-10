@@ -17,10 +17,10 @@ export class ProjectsComponent implements OnInit {
 
   ngOnInit(): void {
     this.seoService.updateMetaTags({
-      title: 'Projects – Darshan Bhuva',
-      description: 'Explore Darshan Bhuva\'s portfolio of innovative web applications and software projects. View detailed case studies of Angular, .NET, and full-stack development work.',
-      url: 'https://darshanbhuva.vercel.app/projects',
-      keywords: 'Darshan Bhuva Projects, Full-Stack Developer Portfolio, Angular Projects, .NET Applications, Web Development Portfolio, Software Development Projects'
+      title: 'Projects – Feroz Mohammad',
+      description: 'Showcase of Feroz Mohammad’s projects, including the launch of Dario Lario, wine consulting events, and business development initiatives with SMEs. Explore artisan leather craftsmanship and entrepreneurial ventures.',
+      url: 'https://ferozmohammad.vercel.app/projects',
+      keywords: 'Feroz Mohammad Projects, Dario Lario Launch, SME Business Development, Wine Consulting, Artisan Leather Portfolio'
     });
   }
 }
