@@ -17,10 +17,10 @@ export class AboutComponent implements OnInit {
 
   ngOnInit(): void {
     this.seoService.updateMetaTags({
-      title: 'About Me – Darshan Bhuva',
-      description: 'Learn about Darshan Bhuva, a passionate Full-Stack Developer with expertise in Angular, .NET, and modern web technologies. Discover my journey, skills, and professional background.',
-      url: 'https://darshanbhuva.vercel.app/about',
-      keywords: 'About Darshan Bhuva, Full-Stack Developer Background, Angular Developer Profile, .NET Developer Experience, Web Developer Skills'
+      title: 'About Me – Feroz Mohammad',
+      description: 'Learn about Feroz Mohammad, a business banking professional and co-founder of Dario Lario. Discover my journey in finance, entrepreneurship, and sustainable artisan leather goods.',
+      url: 'https://ferozmohammad.vercel.app/about',
+      keywords: 'Feroz Mohammad, Business Banking, Entrepreneur, Dario Lario, Artisan Leather, Portfolio'
     });
   }
 }
