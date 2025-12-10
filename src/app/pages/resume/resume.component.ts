@@ -17,10 +17,10 @@ export class ResumeComponent implements OnInit {
 
   ngOnInit(): void {
     this.seoService.updateMetaTags({
-      title: 'Resume – Darshan Bhuva',
-      description: 'Download or view Darshan Bhuva\'s professional resume. Comprehensive overview of skills, experience, and achievements as a Full-Stack Developer specializing in Angular and .NET.',
-      url: 'https://darshanbhuva.vercel.app/resume',
-      keywords: 'Darshan Bhuva Resume, Full-Stack Developer CV, Angular Developer Resume, .NET Developer CV, Web Developer Resume Download'
+      title: 'Resume – Feroz Mohammad',
+      description: 'Download or view Feroz Mohammad’s professional resume. Detailed overview of skills, experience, and achievements in business banking, entrepreneurship, and co-founding Dario Lario, a sustainable artisan leather brand.',
+      url: 'https://ferozmohammad.vercel.app/resume',
+      keywords: 'Feroz Mohammad Resume, Business Banking CV, Entrepreneur CV, Dario Lario, Artisan Leather, Professional Achievements'
     });
   }
 }
