@@ -17,10 +17,10 @@ export class ContactComponent implements OnInit {
 
   ngOnInit(): void {
     this.seoService.updateMetaTags({
-      title: 'Contact – Darshan Bhuva',
-      description: 'Get in touch with Darshan Bhuva for collaboration opportunities, project inquiries, or professional discussions. Contact a skilled Full-Stack Developer specializing in Angular and .NET.',
-      url: 'https://darshanbhuva.vercel.app/contact',
-      keywords: 'Contact Darshan Bhuva, Hire Full-Stack Developer, Angular Developer Contact, .NET Developer Hire, Web Development Services, Project Collaboration'
+      title: 'Contact – Feroz Mohammad',
+      description: 'Get in touch with Feroz Mohammad for collaboration opportunities, business inquiries, or professional discussions. Connect with a business banking professional and co-founder of Dario Lario, specializing in sustainable artisan leather goods.',
+      url: 'https://ferozmohammad.vercel.app/contact',
+      keywords: 'Contact Feroz Mohammad, Business Banking Professional, Entrepreneur Contact, Dario Lario, Artisan Leather, Collaboration'
     });
   }
 }
